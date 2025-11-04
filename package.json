@@ -1,0 +1,24 @@
+{
+  "name": "koncheck-proyecto-completo",
+  "version": "1.0.0",
+  "description": "Sistema KonCheck - Proyecto completo con backend Node.js y frontend",
+  "scripts": {
+    "start": "powershell -Command \"cd KonCheckKKK; node backend-simple.js\"",
+    "dev": "powershell -Command \"cd KonCheckKKK; node backend-simple.js\"",
+    "test-db": "powershell -Command \"cd KonCheckKKK; node test-db-connection.js\"",
+    "install-deps": "powershell -Command \"cd KonCheckKKK; npm install\"",
+    "servidor": "powershell -Command \"cd KonCheckKKK; .\\INICIAR_SERVIDOR_SIMPLE.bat\""
+  },
+  "dependencies": {
+    "mysql2": "^3.15.3"
+  },
+  "keywords": [
+    "koncheck",
+    "fuerza-publica",
+    "autenticacion",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "KonCheck Team",
+  "license": "MIT"
+}
